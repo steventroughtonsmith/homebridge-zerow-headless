@@ -7,7 +7,7 @@ wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install
 npm install -g homebridge
 npm install -g homebridge-camera-rpi
 
-#cp ./CameraSource.js /opt/nodejs/lib/node_modules/homebridge-camera-rpi/CameraSource.js
+cp ./CameraSource.js /opt/nodejs/lib/node_modules/homebridge-camera-rpi/CameraSource.js
 
 sudo apt-get install ffmpeg
 sudo modprobe bcm2835-v4l2
