@@ -1,0 +1,14 @@
+{
+  "bridge": {
+    "name": "Camera 1",
+    "username": "C2:19:A1:B0:6E:8B",
+    "port": 45525,
+    "pin": "937-19-468"
+  },
+  "description": "Camera 1 Bridge",
+  "accessories": [],
+  "platforms": [{
+      "platform": "rpi-camera",
+      "cameras": [{"name": "Pi Camera"}]
+    }]
+}
