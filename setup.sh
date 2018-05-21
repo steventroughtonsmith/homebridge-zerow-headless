@@ -2,6 +2,9 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get update
 
+read -p "Manually enable camera module in raspi-config: press any key to begin... " -n1 -s
+sudo raspi-config
+
 read -p "Homebridge setup: press any key to begin... " -n1 -s
 wget -O - https://raw.githubusercontent.com/sdesalas/node-pi-zero/master/install-node-v.lts.sh | bash
 npm install -g homebridge
